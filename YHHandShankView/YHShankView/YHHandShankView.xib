@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="YHHandShankView" customModule="YHHandShankView" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="250" height="250"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="DlW-5l-bTn">
+                    <rect key="frame" x="0.0" y="0.0" width="250" height="250"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="EEv-bt-Nsw">
+                    <rect key="frame" x="90" y="90" width="70" height="70"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="70" id="pie-Ew-PSw"/>
+                        <constraint firstAttribute="height" constant="70" id="sR6-Nb-1m0"/>
+                    </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="fOg-WU-8oS">
+                    <rect key="frame" x="110" y="15" width="30" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="QiD-Bk-f2e"/>
+                        <constraint firstAttribute="width" constant="30" id="chT-vh-so7"/>
+                    </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="mf6-zK-GR4">
+                    <rect key="frame" x="110" y="205" width="30" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="HMI-m7-pyR"/>
+                        <constraint firstAttribute="width" constant="30" id="J1L-4R-1gs"/>
+                    </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Ggo-40-Aor">
+                    <rect key="frame" x="15" y="110" width="30" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="30" id="KbZ-go-QkS"/>
+                        <constraint firstAttribute="height" constant="30" id="Y9c-L6-Goz"/>
+                    </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="0eW-1j-AuU">
+                    <rect key="frame" x="205" y="110" width="30" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="30" id="LNU-Qe-dy6"/>
+                        <constraint firstAttribute="height" constant="30" id="PyG-Jp-IBp"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="DlW-5l-bTn" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="0r1-Ls-kZ6"/>
+                <constraint firstItem="EEv-bt-Nsw" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="BIC-nE-Nog"/>
+                <constraint firstAttribute="bottom" secondItem="mf6-zK-GR4" secondAttribute="bottom" constant="15" id="Dc8-X1-2qc"/>
+                <constraint firstAttribute="bottom" secondItem="DlW-5l-bTn" secondAttribute="bottom" id="EES-uH-9SY"/>
+                <constraint firstAttribute="trailing" secondItem="DlW-5l-bTn" secondAttribute="trailing" id="Ili-i8-F2C"/>
+                <constraint firstItem="fOg-WU-8oS" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="JCU-ds-xwe"/>
+                <constraint firstItem="0eW-1j-AuU" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="K0q-9Q-eK3"/>
+                <constraint firstItem="fOg-WU-8oS" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="15" id="PQ5-Gg-b9h"/>
+                <constraint firstItem="EEv-bt-Nsw" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="URV-xk-dOm"/>
+                <constraint firstAttribute="trailing" secondItem="0eW-1j-AuU" secondAttribute="trailing" constant="15" id="W36-0d-nQi"/>
+                <constraint firstItem="Ggo-40-Aor" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="f6n-zh-vT4"/>
+                <constraint firstItem="mf6-zK-GR4" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="gcT-Lu-iGb"/>
+                <constraint firstItem="DlW-5l-bTn" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="ldy-8I-S6Q"/>
+                <constraint firstItem="Ggo-40-Aor" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="15" id="tsP-HJ-faD"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="backView" destination="DlW-5l-bTn" id="fhT-V6-2bC"/>
+                <outlet property="bottomView" destination="mf6-zK-GR4" id="7Tm-U2-6nS"/>
+                <outlet property="centerView" destination="EEv-bt-Nsw" id="8DG-SY-sqo"/>
+                <outlet property="leftView" destination="Ggo-40-Aor" id="Rcn-fP-9QF"/>
+                <outlet property="rightView" destination="0eW-1j-AuU" id="GG2-ek-KWk"/>
+                <outlet property="topView" destination="fOg-WU-8oS" id="xPQ-Pa-dUm"/>
+            </connections>
+            <point key="canvasLocation" x="191" y="276"/>
+        </view>
+    </objects>
+</document>
